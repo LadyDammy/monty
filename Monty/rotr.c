@@ -25,3 +25,4 @@ void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
 	copy->prev = NULL;
 	(*head)->prev = copy;
 	(*head) = copy;
+}

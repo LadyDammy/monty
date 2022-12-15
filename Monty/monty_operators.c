@@ -177,3 +177,4 @@ void f_mod(stack_t **head, unsigned int counter)
 	h->next->n = temp;
 	*head = h->next;
 	free(h);
+}
